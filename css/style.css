@@ -1,0 +1,170 @@
+/* BASE OPTIONS */
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+/* საიტის ჩარჩო */
+.container {
+    width: 1088px;
+    margin: 0 auto;
+}
+
+
+
+.text-h1 {
+    font-size: 44px;
+    font-family: 'Poppins';
+    color: black;
+
+}
+
+.txt-h2 {
+    margin-top: 90px;
+    font-size: 14px;
+    font-family: 'Poppins';
+    color: rgb(88, 99, 248);
+    margin-top: 88px;
+}
+
+.txt-h1 {
+    font-size: 44px;
+    font-family: 'Poppins';
+    color: black;
+}
+
+/* კონტეინერი მშობელი ელემენტი და ჩაილდ ელემენტები */
+.wraper-box {
+    margin-top: 108px;
+}
+
+.first-block,
+.second-block,
+.third-block,
+.fourth-block {
+    width: 536px;
+    background-color: #f8f8f8;
+}
+
+.first-block,
+.second-block {
+    margin-bottom: 16px;
+}
+
+.img-left {
+    float: left;
+}
+
+.wraper-text-h2 {
+    font-size: 14px;
+    font-family: 'Poppins';
+    color: rgb(88, 99, 248);
+    margin-top: 37px;
+
+}
+
+.wraper-text-h3 {
+    font-size: 18px;
+    color: black;
+    margin-top: 6px;
+    font-family: 'Poppins';
+}
+
+.wraper-txt-p {
+    font-size: 14px;
+    color: rgb(177, 177, 177);
+    font-family: 'Poppins';
+    margin-top: 11px;
+}
+
+.wraper-txt {
+    width: 260px;
+    margin-left: 16px;
+    float: left;
+}
+
+.wraper-box::after {
+    content: ' ';
+    clear: both;
+    display: block;
+}
+
+
+
+
+/* იწყება კონტეინერი */
+.pirveli-box,
+.meore-box,
+.mesame-box,
+.meotxe-box,
+.mexute-box,
+.meqvse-box {
+    width: 352px;
+    background-color: #f8f8f8;
+}
+
+/* ჩაილდ ელემენტები */
+.pirveli-box,
+.meore-box,
+.mesame-box {
+    float: left;
+    margin-left: 10px;
+}
+
+.meotxe-box,
+.mexute-box,
+.meqvse-box {
+    float: left;
+    margin-bottom: 86px;
+    margin-left: 10px;
+}
+
+/* ტექსტის ზომები */
+.down-text-h2 {
+    text-align: center;
+    font-family: 'Poppins';
+    color: rgb(88, 99, 248);
+    margin-top: 22px
+}
+
+.down-text-h3 {
+    text-align: center;
+    font-family: 'Poppins';
+    color: black;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+.down-txt-p {
+
+    font-size: 14px;
+    font-family: 'Poppins';
+    color: rgb(177, 177, 177);
+    margin-top: 11px;
+    margin: 11px auto 23px;
+}
+
+/* ტექსტის ბლოკი  */
+.down-txt {
+    margin-top: auto;
+    margin-left: 100px;
+    height: 148px;
+}
+
+/* მშობელი ტეგის ზომა რომ დაინახოს ჩაილდ ელემენტები */
+.down-wraper-box::after {
+    content: ' ';
+    clear: both;
+    display: block;
+}
+
+.down-wraper-box {
+    margin-top: 54px;
+}
